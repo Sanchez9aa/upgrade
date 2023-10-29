@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>UserFlex</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main class="container">
+			<header class="header-container">
+				<h1>UserFlex</h1>
+			</header>
+			<section class="form-container">
+				<form autocomplete="on" onsubmit="addUser(event)">
+					<label class="input-container">
+						<p>Usuario:</p>
+						<input placeholder="Usuario" name="user" type="text" required />
+					</label>
+					<label class="input-container">
+						<p>Correo electrónico:</p>
+						<input
+							placeholder="example@gmail.com"
+							name="email"
+							type="email"
+							required
+						/>
+					</label>
+					<label class="input-container">
+						<p>Número de teléfono:</p>
+						<input placeholder="600600600" type="tel" name="tel" required />
+					</label>
+
+					<footer class="form-footer-container">
+						<button type="submit" class="button">Crear</button>
+						<button type="reset" class="button reset">Resetear</button>
+					</footer>
+				</form>
+			</section>
+			<section class="table-section">
+				<header class="table-header">
+					<h2>Lista de usuarios</h2>
+				</header>
+				<div class="table-container">
+					<div id="user-row" class="row-container">
+						<p>Usuario</p>
+					</div>
+					<div id="email-row" class="row-container">
+						<p>Correo:</p>
+					</div>
+					<div id="tel-row" class="row-container">
+						<p>Teléfono:</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script src="main.js"></script>
+	</body>
+</html>
