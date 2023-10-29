@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 6px;
+}
+
+header,
+footer {
+	min-height: 60px;
+	padding: 12px;
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	background-color: #ddd;
+	min-height: calc(100vh - 133px);
+	height: 100%;
+	padding: 32px;
+}
+
+section:nth-child(1) {
+	margin-top: 0;
+}
+
+section {
+	margin: 32px 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	padding: 24px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	width: 300px;
+	height: 100%;
+	border-radius: 4px;
+	gap: 24px;
+}
+
+form > label {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	padding: 12px 0;
+}
+
+button {
+	padding: 6px;
+	border: 1px solid #333;
+	border-radius: 4px;
+	background-color: #fff;
+	color: #333;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	width: 100px;
+	align-self: end;
+}
+
+button:hover {
+	background-color: #333;
+	color: #fff;
+	transform: scale(1.05);
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+.tareas-container {
+	background-color: #fff;
+	padding: 24px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+}
+
+.tareas-container > ul > li {
+	font-size: large;
+	padding: 6px 0;
+	list-style: circle;
+}
+
+.tachado{
+	text-decoration: line-through;
+}
+
+
