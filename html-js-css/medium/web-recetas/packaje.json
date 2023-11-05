@@ -1,0 +1,14 @@
+{
+		"name": "recetasWeb",
+		"type": "module",
+		"module": "es06",
+		"version": "1.0.0",
+		"description": "Recetas-web",
+		"main": "main.js",
+		"keywords": [
+				"node",
+				"express"
+		],
+		"author": "Jesús S",
+		"license": "ISC"
+}

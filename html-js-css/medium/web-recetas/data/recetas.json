@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pasta Alfredo",
+    "imagen": "https://via.placeholder.com/150",
+    "descripcion": "Una deliciosa pasta cremosa con salsa Alfredo."
+  },
+  {
+    "id": 2,
+    "nombre": "Ensalada César",
+    "imagen": "https://via.placeholder.com/150",
+    "descripcion": "Una fresca ensalada con pollo, crutones y aderezo César."
+  },
+  {
+    "id": 3,
+    "nombre": "Salmón a la Parrilla",
+    "imagen": "https://via.placeholder.com/150",
+    "descripcion": "Salmón fresco asado a la parrilla con hierbas y limón."
+  },
+  {
+    "id": 4,
+    "nombre": "Tacos de Carnitas",
+    "imagen": "https://via.placeholder.com/150",
+    "descripcion": "Tacos de cerdo desmenuzado con cebolla y cilantro en tortillas de maíz."
+  },
+  {
+    "id": 5,
+    "nombre": "Pizza Margarita",
+    "imagen": "https://via.placeholder.com/150",
+    "descripcion": "Pizza con tomate, mozzarella fresca y albahaca."
+  },
+  {
+    "id": 6,
+    "nombre": "Hamburguesa Clásica",
+    "imagen": "https://via.placeholder.com/150",
+    "descripcion": "Una hamburguesa con carne de res, lechuga, tomate y queso."
+  },
+  {
+    "id": 7,
+    "nombre": "Risotto de Champiñones",
+    "imagen": "https://via.placeholder.com/150",
+    "descripcion": "Risotto cremoso con champiñones y parmesano."
+  },
+  {
+    "id": 8,
+    "nombre": "Sopa de Tomate",
+    "imagen": "https://via.placeholder.com/150",
+    "descripcion": "Sopa caliente de tomate con crutones."
+  },
+  {
+    "id": 9,
+    "nombre": "Pollo a la Naranja",
+    "imagen": "https://via.placeholder.com/150",
+    "descripcion": "Pollo en salsa de naranja con arroz."
+  },
+  {
+    "id": 10,
+    "nombre": "Pudín de Chocolate",
+    "imagen": "https://via.placeholder.com/150",
+    "descripcion": "Pudín de chocolate con crema batida."
+  }
+]

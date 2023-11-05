@@ -1,0 +1,119 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+}
+
+header{
+	background-color: #333;
+	color: #fff;
+	padding: 12px;
+	min-height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	min-height: calc(100vh - 178px);
+	height: 100%;
+	padding: 36px;
+	background-color: #dcdcdc;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 12px;
+	min-height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 8px rgba(0,0,0,.3);
+	padding: 24px;
+}
+
+.filter-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 16px
+}
+
+.filter-container input{
+	padding: 12px;
+	border-radius: 8px;
+	border: 1px solid #333;
+}
+
+button{
+	padding: 12px;
+	border-radius: 8px;
+	border: 1px solid #333;
+	background-color: #fff;
+	color: #333;
+	cursor: pointer;
+	transition: all .3s ease;
+}
+
+button:hover{
+	background-color: #333;
+	color: #fff;
+	transform: scale(1.05);
+}
+
+button:active{
+	transform: scale(.95);
+}
+
+.recetas-container{
+	animation: fade 2s ease;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 24px;
+}
+
+.receta{
+	animation: fade 1s ease-out;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 8px rgba(0,0,0,.3);
+	max-width: 300px;
+}
+
+.receta-header img{
+	width: 100%;
+	border-radius: 8px 8px 0 0;
+	object-fit: cover;
+	max-height: 200px;
+}
+
+.receta-body{
+	padding: 12px;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
